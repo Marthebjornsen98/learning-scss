@@ -1,0 +1,23 @@
+.logo__container {
+    width: 4%;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.home__heading {
+    margin: 50px 0px;
+}
+
+.card {
+    width: 100%;
+}
+
+.btn {
+    width: map-get($btn, "width") !important;
+    background-color: map-get($btn, "background-color") !important;
+    color: map-get($btn, "font-text") !important;
+    border-radius: ($btn, "border-radius") !important;
+}
